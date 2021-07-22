@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Automation practice ]">
+  <parameter name="browser" value="chrome"/>
+  <test parallel="none" name="End to End Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.automationPractice.TestCases.DressesMenuTest">
+        <methods>
+          <include name="PreReq"/>
+          <include name="AddDresses" invocation-numbers="0"/>
+          <include name="PostReq"/>
+        </methods>
+      </class> <!-- com.automationPractice.TestCases.DressesMenuTest -->
+    </classes>
+  </test> <!-- End to End Test(failed) -->
+</suite> <!-- Failed suite [Automation practice ] -->

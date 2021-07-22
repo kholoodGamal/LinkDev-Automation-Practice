@@ -1,0 +1,5 @@
+com\automationPractice\pages\Registration.class
+com\automationPractice\util\TestUtils.class
+com\automationPractice\pages\DressesMenu.class
+com\automationPractice\pages\Login.class
+com\automationPractice\Base\TestBase.class
